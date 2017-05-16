@@ -1,0 +1,83 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Ostrich Sans Dashed';
+	src: url('../simple/theleagueof-ostrich-sans-bad8f030a420639c6066e53266647862d21d3501/ostrich-sans-master/webfonts/ostrich-sans-dashed.eot');
+	src: local('☺'), url('../simple/theleagueof-ostrich-sans-bad8f030a420639c6066e53266647862d21d3501/ostrich-sans-master/webfonts/ostrich-sans-dashed.woff') format('woff'), url('../simple/theleagueof-ostrich-sans-bad8f030a420639c6066e53266647862d21d3501/ostrich-sans-master/webfonts/ostrich-sans-dashed.ttf') format('truetype'), url('../simple/theleagueof-ostrich-sans-bad8f030a420639c6066e53266647862d21d3501/ostrich-sans-master/webfonts/ostrich-sans-dashed.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+body {
+
+}
+.resume {
+	background-color: #FF4040;
+	/* [disabled]padding: 25px; */
+	/* [disabled]border: 1px solid #CCC; */
+	/* [disabled]border-radius: 10px; */
+	/* [disabled]box-shadow: 5px 5px #CCC; */
+	text-align: center;
+	font-size: 130%;
+}
+.skill-placeholder {
+	background-color: #CCC;
+	border: 1px solid #999;
+	transition-duration: 1800ms;
+	border-radius: 90px;
+	box-shadow: 5px 5px #666;
+}
+.skill-placeholder:hover {
+	background-color: #0FC;
+	border: 1px solid #999;
+	transition-duration: 1800ms;
+	border-radius: 180px;
+	box-shadow: 5px 5px #666;
+}
+.skill-placeholder:active {
+	background-color: #FF0;
+	border: 1px solid #999;
+	transition-duration: 1800ms;
+	border-radius: 200px 0px 200px 0px;
+	box-shadow: 5px 5px #666;
+}
+h1 {
+	text-align: center;
+}
+#text {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 120%;
+	color: #000;
+}
+
+.google-maps {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+		padding-bottom: 400px;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 400px !important;
+		z-index:-2
+}#contactbox {
+	font-family: 'Raleway';
+	font-size: 105%;
+	color: #000;
+	border: 1px solid #666;
+}
+#contactbox tr td {
+	border: 1px solid #999;
+}
+#writting {
+	font-family: 'Raleway';
+	font-size: 105%;
+	color: #000;
+}
+#education {
+	font-family: 'raleway';
+	font-size: 105%;
+	color: #000;
+}
